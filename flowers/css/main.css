@@ -1324,4 +1324,49 @@ body {
 .container * {
   -webkit-animation-play-state: paused !important;
           animation-play-state: paused !important;
+
+
+}
+.reset{
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -1000px;
+  left: 900px;
+
+}
+button{
+    font-weight: 800;
+    font-style: normal;
+    transition: all 0.1s linear;
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: solid 2px #df8c8c;
+    border-radius: 4px;
+    color: #ff5757;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 5px;
+    padding: 10px;
+    line-height: 1em;
+    text-decoration: none;
+    min-width: 120px;
+    cursor: pointer;
+  
+
+
+}
+button:hover{
+
+  background-color: #df8c8c ;
+  color: black;
+  transition: 0.5s;
+
+
+}
+a{
+  text-decoration: none;
+  color: white;
 }

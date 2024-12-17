@@ -1,3 +1,5 @@
+var reset = document.getElementById('appear')
+
 $( document ).ready(function() {
     
     var envelope = $('#envelope');
@@ -24,3 +26,9 @@ $( document ).ready(function() {
     }
    
 });
+
+function restart(){
+
+    reset.style.display = 'flex'
+
+}

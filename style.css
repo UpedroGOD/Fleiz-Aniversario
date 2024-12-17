@@ -258,23 +258,43 @@ body {
   color: #a10000;
 }
 
-a{
+.BtnReset{
+  
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  left: 870px;
+  min-width: 120px;
   font-weight: 800;
   font-style: normal;
+  transition: all 0.1s linear;
+  -webkit-appearance: none;
   background-color: transparent;
+  border: solid 2px #ff5757;
   border-radius: 4px;
   color: #ff5757;
   display: inline-block;
   font-size: 14px;
   text-transform: uppercase;
+  margin: 5px;
+  padding: 10px;
   line-height: 1em;
   text-decoration: none;
-  min-width: 100px;
-  margin: 0.2px;
+
+  width: 90px;
   cursor: pointer;
+  display:none;
+  
+}
+.BtnReset,a{
+  color: #ff5757;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
 
 }
-.Fbutton:hover{
+.BtnReset:hover{
   background-color: #fc9d9d;
   color: #a10000;
 }
